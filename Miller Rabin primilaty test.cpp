@@ -1,3 +1,7 @@
+// Find a number is prime or not by Miller Rabin primilaty test.
+// Hence Miller Rabin primilaty test is a non-deteministic primilaty test, 
+// but it is deterministic for the range at 64 bit or n = 10^18.
+
 #include<bits/stdc++.h>
 using namespace std;
  
