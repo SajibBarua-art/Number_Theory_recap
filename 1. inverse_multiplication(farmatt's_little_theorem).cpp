@@ -13,7 +13,7 @@ int power(int a, int n, int p) {
 
 int main() {
 	int a, p; cin >> a >> p; // p must be a prime number
-	// We have to find the modulo multiplaction inverse of a.
+	// We have to find the modulo multiplication inverse of a.
 	// It is equal to a^(p-2) (mod p)
-	cout << "Modulo Multiplication of " << a << " is: " << power(a, p-2, p) << endl;
+	cout << "Modulo Multiplication inverse(a^-1) of " << a << " is: " << power(a, p-2, p) << endl;
 }
